@@ -286,10 +286,10 @@ p {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../images/hero-background.jpg');
+    background-image: url('../images/b022a8827cc929b63d2a6c06e069dec4.jpg');
     background-size: cover;
     background-position: center;
-    opacity: 0.3;
+    opacity: 0.5;
     z-index: 0;
 }
 
@@ -299,7 +299,7 @@ p {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(180deg, rgba(26, 26, 46, 0.7) 0%, rgba(22, 33, 62, 0.8) 100%);
+    background: linear-gradient(180deg, rgba(26, 26, 46, 0.6) 0%, rgba(22, 33, 62, 0.75) 100%);
     z-index: 1;
 }
 
