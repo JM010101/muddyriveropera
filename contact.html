@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Muddy River Opera Company. Get in touch for questions, feedback, or to learn more about our programs.">
+    <title>Contact Us | Muddy River Opera Company</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="logo">
+                        <span class="logo-text">Muddy River Opera</span>
+                    </a>
+                    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li class="dropdown">
+                            <a href="performances.html" class="nav-link">Season <span class="dropdown-arrow">▼</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="performances.html">Current Season</a></li>
+                                <li><a href="performances.html#past-seasons">Past Seasons</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="media.html" class="nav-link">Media</a></li>
+                        <li><a href="sponsors.html" class="nav-link">Sponsors</a></li>
+                        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                    </ul>
+                    <div class="nav-actions">
+                        <a href="tickets.html" class="btn btn-primary">Get Tickets</a>
+                        <a href="donate.html" class="btn btn-secondary">Donate</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p class="page-header-subtitle">We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="content-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>Have questions about our performances, want to volunteer, or interested in sponsorship opportunities? We're here to help!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@muddyriveropera.org">info@muddyriveropera.org</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Phone</h3>
+                            <p><a href="tel:5551234567">(555) 123-4567</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Box Office</h3>
+                            <p>Monday - Friday: 10am - 5pm</p>
+                            <p>Saturday: 12pm - 4pm</p>
+                            <p>Sunday: Closed</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Address</h3>
+                            <p>
+                                123 Opera Street<br>
+                                City, State 12345
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="social-contact">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook">Facebook</a>
+                            <a href="#" aria-label="Twitter">Twitter</a>
+                            <a href="#" aria-label="Instagram">Instagram</a>
+                            <a href="#" aria-label="YouTube">YouTube</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <h2>Send Us a Message</h2>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="tickets">Ticket Information</option>
+                                <option value="donation">Donation/Support</option>
+                                <option value="sponsorship">Sponsorship</option>
+                                <option value="volunteer">Volunteer Opportunities</option>
+                                <option value="media">Media Inquiries</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <p class="form-note">* Required fields</p>
+                        <p class="form-note">Note: Update the form action to point to your server-side form handler (PHP, Node.js, or form service like Formspree).</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Muddy River Opera</h3>
+                    <p>Bringing world-class opera to our community.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="YouTube">YouTube</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="performances.html">Season</a></li>
+                        <li><a href="media.html">Media</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="donate.html">Donate</a></li>
+                        <li><a href="sponsors.html">Sponsors</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@muddyriveropera.org</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Muddy River Opera Company. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
