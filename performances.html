@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View Muddy River Opera's current season lineup and upcoming performances. Get information about shows, dates, and venues.">
+    <title>Season & Performances | Muddy River Opera Company</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="logo">
+                        <span class="logo-text">Muddy River Opera</span>
+                    </a>
+                    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li class="dropdown">
+                            <a href="performances.html" class="nav-link active">Season <span class="dropdown-arrow">▼</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="performances.html">Current Season</a></li>
+                                <li><a href="performances.html#past-seasons">Past Seasons</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="media.html" class="nav-link">Media</a></li>
+                        <li><a href="sponsors.html" class="nav-link">Sponsors</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                    <div class="nav-actions">
+                        <a href="tickets.html" class="btn btn-primary">Get Tickets</a>
+                        <a href="donate.html" class="btn btn-secondary">Donate</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>2024 Season</h1>
+            <p class="page-header-subtitle">Experience world-class opera performances</p>
+        </div>
+    </section>
+
+    <!-- Current Season -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Current Season</h2>
+            <div class="performances-list">
+                <article class="performance-item">
+                    <div class="performance-item-image">
+                        <img src="images/performance-placeholder.jpg" alt="La Traviata" loading="lazy">
+                    </div>
+                    <div class="performance-item-content">
+                        <div class="performance-item-header">
+                            <h3>La Traviata</h3>
+                            <span class="performance-badge">Upcoming</span>
+                        </div>
+                        <p class="performance-composer">by Giuseppe Verdi</p>
+                        <p class="performance-dates-venue">March 15-17, 2024 | Main Theater</p>
+                        <p class="performance-description">Verdi's timeless tale of love and sacrifice tells the story of Violetta, a courtesan who falls in love with Alfredo. When his father demands she leave him for the family's honor, she must make the ultimate sacrifice.</p>
+                        <div class="performance-item-actions">
+                            <a href="show-la-traviata.html" class="btn btn-outline">Learn More</a>
+                            <a href="tickets.html" class="btn btn-primary">Get Tickets</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="performance-item">
+                    <div class="performance-item-image">
+                        <img src="images/performance-placeholder.jpg" alt="The Magic Flute" loading="lazy">
+                    </div>
+                    <div class="performance-item-content">
+                        <div class="performance-item-header">
+                            <h3>The Magic Flute</h3>
+                            <span class="performance-badge">Upcoming</span>
+                        </div>
+                        <p class="performance-composer">by Wolfgang Amadeus Mozart</p>
+                        <p class="performance-dates-venue">June 8-10, 2024 | Main Theater</p>
+                        <p class="performance-description">Mozart's enchanting opera follows Prince Tamino as he embarks on a quest to rescue Pamina, guided by a magic flute. A delightful blend of comedy, fantasy, and Masonic symbolism.</p>
+                        <div class="performance-item-actions">
+                            <a href="show-magic-flute.html" class="btn btn-outline">Learn More</a>
+                            <a href="tickets.html" class="btn btn-primary">Get Tickets</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="performance-item">
+                    <div class="performance-item-image">
+                        <img src="images/performance-placeholder.jpg" alt="Carmen" loading="lazy">
+                    </div>
+                    <div class="performance-item-content">
+                        <div class="performance-item-header">
+                            <h3>Carmen</h3>
+                            <span class="performance-badge">Upcoming</span>
+                        </div>
+                        <p class="performance-composer">by Georges Bizet</p>
+                        <p class="performance-dates-venue">October 12-14, 2024 | Main Theater</p>
+                        <p class="performance-description">Bizet's passionate opera tells the story of Carmen, a free-spirited gypsy, and Don José, a soldier whose obsession leads to tragedy. Featuring some of opera's most beloved melodies.</p>
+                        <div class="performance-item-actions">
+                            <a href="show-carmen.html" class="btn btn-outline">Learn More</a>
+                            <a href="tickets.html" class="btn btn-primary">Get Tickets</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Past Seasons -->
+    <section class="content-section bg-light" id="past-seasons">
+        <div class="container">
+            <h2 class="section-title">Past Seasons</h2>
+            <div class="past-seasons-grid">
+                <div class="past-season-card">
+                    <h3>2023 Season</h3>
+                    <ul class="past-season-list">
+                        <li>Madama Butterfly</li>
+                        <li>The Barber of Seville</li>
+                        <li>Don Giovanni</li>
+                    </ul>
+                </div>
+                <div class="past-season-card">
+                    <h3>2022 Season</h3>
+                    <ul class="past-season-list">
+                        <li>Rigoletto</li>
+                        <li>The Marriage of Figaro</li>
+                        <li>Tosca</li>
+                    </ul>
+                </div>
+                <div class="past-season-card">
+                    <h3>2021 Season</h3>
+                    <ul class="past-season-list">
+                        <li>Aida</li>
+                        <li>La Bohème</li>
+                        <li>The Tales of Hoffmann</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Experience Opera?</h2>
+            <p>Reserve your seats today and join us for an unforgettable performance.</p>
+            <a href="tickets.html" class="btn btn-large btn-primary">Buy Tickets</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Muddy River Opera</h3>
+                    <p>Bringing world-class opera to our community.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="YouTube">YouTube</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="performances.html">Season</a></li>
+                        <li><a href="media.html">Media</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="donate.html">Donate</a></li>
+                        <li><a href="sponsors.html">Sponsors</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@muddyriveropera.org</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Muddy River Opera Company. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
